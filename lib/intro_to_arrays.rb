@@ -2,8 +2,8 @@ def instantiate_new_array
   []
 end
 
-def array_with_two_elements(array = Array.new(2))
-  array
+def array_with_two_elements
+  Array.new(2)
 end
 
 def first_element(array)
